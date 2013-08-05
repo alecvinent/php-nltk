@@ -56,7 +56,6 @@ class MultinomialNBClassifier implements Classifier
             if($score > $maxScore) {
                 $maxClass = $class;
                 $maxScore = $score;
-                fwrite(STDOUT, "match class $maxClass - $maxScore\n");
             }
         }
         return $maxClass;
