@@ -1,0 +1,7 @@
+.DS_Store
+.idea
+bin
+vendor
+composer.lock
+tests/unit/Nlp/Classifier/MultinomialNBClassifierRealDataTest.php
+tests/fixtures/
